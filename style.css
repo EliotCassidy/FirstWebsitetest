@@ -1,0 +1,90 @@
+body {
+ width: 800px; /* largeur de 800 pixels */
+ margin: auto; /* marges automatiques pour centrer horizontalement */
+ background-color: #efefef; /* couleur du fond */
+}
+
+
+h1 {
+ text-align: center;
+ color: blue;
+ font-size: 50px;
+}
+
+h2 {
+ color: white;
+ background-color: black;
+ padding-left: 20px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ border-radius: 10px;
+}
+
+p {
+ font-family: Verdana;
+ margin-left: 20px;
+ margin-right: 100px;
+ text-align: justify;
+}
+
+h3 {
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+ margin-top: 20px;
+}
+
+.bac {
+ color: #4696a8;
+ text-align: justify;
+}
+
+#ressources {
+ margin-top: 30px;
+ padding-top: 20px;
+ border-top: solid 1px black; /*ajout d'une bordure en haut*/
+}
+
+.letter {
+  color: #bbbbbb;
+  font-size: 40px;
+}
+
+.metier {
+ margin-left: 15px; /* marge extérieure gauche */
+ margin-right: 15px; /* marge extérieure droite */
+ padding: 10px; /* marges intérieures */
+ background-color: white; /* couleur du fond */
+ border: solid 7px #bbbbbb; /* bordure (type, épaisseur, couleur) */
+ border-radius: 30px; /* angles arrondis */
+}
+
+#image {
+ text-align: center;
+}
+
+.metier:hover {
+ color: white;
+ background-color: gray;
+}
+
+.nocolor {
+ text-decoration: none;
+ color: black;
+}
+
+.twocolorlink {
+  text-decoration: none;
+}
+
+.twocolorlink:hover {
+  color: red;
+}
+
+.textemulticolore {
+background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);  
+-webkit-background-clip: text;
+-webkit-background-clip: text;
+-moz-background-clip: text; 
+background-clip: text;
+color: transparent;
+}
